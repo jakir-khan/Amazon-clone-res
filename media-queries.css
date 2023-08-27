@@ -1,0 +1,107 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle {
+        display: block;
+        margin-right:20px ;
+    }
+
+    
+
+    .box {
+        width: calc(50% - 10px);
+        height: 250px;
+    }
+
+    .shop-section{
+        gap: 20px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+     .box {
+        
+        height: 400px;
+    }
+}
+   
+
+@media screen and (max-width: 479px) {
+    .box {
+            width: 100%;
+            height: 360px;
+            padding-left:20px ;
+            padding-bottom:50px ;
+            align-items: center;
+            padding-right:20px ;
+            /* overflow: hidden; */
+        }
+        .shop-section {
+            align-items: center;
+        }
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        align-items: center;
+        height: 1000px;
+        width: 100vw;
+        position: relative;
+        right: 0px;
+        /* margin-top:0px ; */
+    }
+
+    
+
+    .navigation {
+        height: 150px;
+        flex-wrap: wrap;
+    }
+
+    .nav-search {
+        width: 90vw;
+    }
+
+    .panel {
+        height: 40px;
+        display: flex;
+        
+    }
+    .panel-ops {
+        margin-left:2px;
+        font-size: 0.7rem;
+        text-align: left;
+    }
+
+    .logo {
+        height: 60px;
+    }
+    
+    .button {
+        display: inline;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #febd68;
+        height: 40px;
+        width: 100px;
+        font-size: large;
+        font-weight: 700;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 150px;
+    }
+
+    .hero-message {
+        height: 60px;
+    }
+
+    .panel-all{
+        margin-left:15px ;
+    }
+
+}
